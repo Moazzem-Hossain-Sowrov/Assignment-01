@@ -1,5 +1,7 @@
 
-
+a{
+   text-decoration: none;
+}
 .raleway-common {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -8,7 +10,10 @@
    margin: auto auto;
    background-color: #F5F8FF;
 }
+
 /* Started Banner Section */
+
+
 .ban-ba{
    margin: auto -200px 100px;
    padding-bottom: 120px;
@@ -161,6 +166,37 @@ h3{
 }
 .card-detail span{
    display: block;
+}
+
+/*  This is Focus Section  */
+
+.focus{
+   background-color: #fff;
+   padding: 50px 0px 80px;
+   margin: 80px 0px;
+   border-radius: 20px;
+}
+.focus-con h3{
+   font-size: 50px;
+   max-width: 520px;
+   margin: 20px auto;
+}
+.focus-con p{
+   font-size: 16px;
+   max-width: 500px;
+   margin: 10px auto;
+}
+.focus-con img{
+   max-width: 840px;
+   display: grid;
+   margin: auto;
+   justify-content: center;
+   border-radius: 50px;
+}
+.b-btn5{
+   display:block;
+   margin: 30px auto;
+   width: 195px;
 }
 
 /* Here is Get-in-touch Section  */
