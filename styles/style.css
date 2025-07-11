@@ -43,19 +43,6 @@ ul li{
 
 }
 
-/*  Button styles */
-
-.btn{
-   background-color: #4E47FF;
-   width: 132px;
-   height: 48px;
-   border: none;
-   border-radius: 15px;
-   color: #fff;
-   font-size: 16px;
-   align-items: center;
-   cursor:pointer;
-}
 
 .banner-bottom{
    max-width: 900px;
@@ -249,6 +236,20 @@ h3{
    height: 62px;
    font-size: 16px;
    bottom: 0;
+}
+
+/*  Button styles */
+
+.btn{
+   background-color: #4E47FF;
+   width: 132px;
+   height: 48px;
+   border: none;
+   border-radius: 15px;
+   color: #fff;
+   font-size: 16px;
+   align-items: center;
+   cursor:pointer;
 }
 
 /* Button Hover effects  */
