@@ -3,21 +3,26 @@
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+   max-width: 1140px;
+   margin: auto auto 500px;
 }
 .banner{
-   max-width: 1140px;
    margin: auto auto 200px;
    font-weight: bold;
    text-align: center;
 }
-.banner-top{
+ul{
    display: flex;
-   margin: auto;
+   padding: 0;
+   justify-content: space-between;
    height: 150px;
    align-items: center;
-   justify-content: space-between;
 }
-.b-btn1,.b-btn2{
+ul li{
+   list-style: none;
+
+}
+.b-btn1,.b-btn2, .b-btn3{
    background-color: #4E47FF;
    width: 132px;
    height: 48px;
@@ -37,4 +42,27 @@ h3{
 }
 .b-btn2{
    width: 174px;
+}
+.action{
+   display: flex;
+   margin: 50px auto 100px;
+   justify-content: space-between;
+}
+.action-house{
+   max-width: 520px;
+}
+.action h4{
+   font-size: 42px;
+   font-weight: bold;
+}
+.action p{
+   font-size: 24px;
+   color: #252432;
+   opacity: 50%;
+}
+.b-btn3{
+   width: 230px;
+}
+.action-film img{
+   border-radius: 48px;
 }
