@@ -11,6 +11,20 @@ a{
    background-color: #F5F8FF;
 }
 
+/*  Button styles */
+
+.btn{
+   background-color: #4E47FF;
+   width: 132px;
+   height: 48px;
+   border: none;
+   border-radius: 15px;
+   color: #fff;
+   font-size: 16px;
+   align-items: center;
+   cursor:pointer;
+}
+
 /* Started Banner Section */
 
 
@@ -238,19 +252,6 @@ h3{
    bottom: 0;
 }
 
-/*  Button styles */
-
-.btn{
-   background-color: #4E47FF;
-   width: 132px;
-   height: 48px;
-   border: none;
-   border-radius: 15px;
-   color: #fff;
-   font-size: 16px;
-   align-items: center;
-   cursor:pointer;
-}
 
 /* Button Hover effects  */
 
