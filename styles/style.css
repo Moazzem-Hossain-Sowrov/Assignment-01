@@ -4,3 +4,25 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.banner{
+   max-width: 1140px;
+   margin: auto;
+}
+.banner-top{
+   display: flex;
+   margin: auto;
+   height: 150px;
+   align-items: center;
+   justify-content: space-between;
+}
+.b-btn1{
+   background-color: #4E47FF;
+   width: 132px;
+   height: 48px;
+   border: none;
+   border-radius: 15px;
+   color: #fff;
+   font-size: 16px;
+   font-weight: bold;
+   align-items: center;
+}
