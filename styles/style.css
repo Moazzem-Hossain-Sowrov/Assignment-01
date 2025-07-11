@@ -95,8 +95,49 @@ h3{
 }
 .get-in-touch{
    display: flex;
+   justify-content: space-between;
+   margin: 100px auto;
+   padding: 72px 0;
 }
 .get-in-touch h3{
    font-size: 97px;
    max-width: 528px;
+}
+.touch-right{
+   max-width: 497px;
+   position: relative;
+   width: 100%;
+}
+.touch-right label{
+   display: block;
+   width: 100%;
+   font-size: 18px;
+   padding-bottom: 8px;
+   padding-top: 5px;
+}
+.touch-right input{
+   display: block;
+   width: 85%;
+   padding: 20px 32px;
+   stroke: #4E47FF;
+   border-radius: 10px;
+   border: 1px solid #ddd;
+}
+::placeholder {
+  opacity: .5;
+  font-size: 20px;
+}
+.touch-right textarea{
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   padding: 20px 32px;
+}
+.b-btn4{
+   display: flex;
+   justify-content: center;
+   position: absolute;
+   width: 100%;
+   height: 62px;
+   font-size: 16px;
+   bottom: 0;
 }
